@@ -1,0 +1,6 @@
+=== SIGN BRIDGE TRAINING LOG: exp_phase8_lstm_run01 ===
+PID: 30344 | Timestamp: 2026-08-26T08:58:43.752145Z
+Hardware: CPU / TensorFlow 2.21.0
+
+Train Shape: (70, 30, 63) | Val Shape: (15, 30, 63) | Test Shape: (15, 30, 63)
+Epoch 01/10 - Loss: 1.4528 - Acc: 0.2143 - Val Loss: 1.3788 - Val Acc: 0.4000 - Val F1: 0.3792

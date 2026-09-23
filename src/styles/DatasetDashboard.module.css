@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  padding: 20px 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+}
+
+.summaryRow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 14px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.imbalancedRow {
+  background: rgba(255, 180, 0, 0.1) !important;
+  border-left: 3px solid #ffb400;
+}
+
+.flagChip {
+  display: inline-block;
+  padding: 2px 6px;
+  background: rgba(255, 180, 0, 0.2);
+  border: 1px solid #ffb400;
+  border-radius: 4px;
+  color: #ffb400;
+  font-size: 0.72rem;
+  font-weight: 700;
+}

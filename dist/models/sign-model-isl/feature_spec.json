@@ -1,0 +1,15 @@
+{
+  "featureCount": 63,
+  "sequenceLength": 30,
+  "datasetVersion": "isl50_v1",
+  "modelVersion": "v1.0.0-isl50-en",
+  "signLanguage": "Indian Sign Language",
+  "signLanguageCode": "ISL",
+  "outputLanguage": "English",
+  "outputLanguageCode": "en",
+  "isSynthetic": true,
+  "datasetType": "DEMO_SYNTHETIC",
+  "validationStatus": "UNVERIFIED_DEMO",
+  "modelStatus": "PROTOTYPE_DEMO",
+  "notice": "Trained on synthetic demo kinematics. Real ISL training data required for production recognition."
+}

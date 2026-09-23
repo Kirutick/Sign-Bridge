@@ -1,0 +1,93 @@
+{
+  "generation_timestamp": "2026-08-26T14:12:00Z",
+  "baseline_model_version": "v0.6.0-baseline",
+  "target_language": "ASL",
+  "active_feature_schema": "v1_single_hand",
+  "normalization_version": "v1",
+  "priority_queue": [
+    {
+      "rank": 1,
+      "label": "THANK_YOU",
+      "category": "GREETINGS_SOCIAL",
+      "priority_score": 96.5,
+      "current_samples": 25,
+      "target_samples": 100,
+      "performer_count": 4,
+      "target_performers": 5,
+      "session_count": 2,
+      "test_f1": 0.000,
+      "primary_confusion": "NO (75%)",
+      "collection_reason": "Zero test F1; high confusion with NO. Needs 75 samples with entry/exit hold."
+    },
+    {
+      "rank": 2,
+      "label": "HELLO",
+      "category": "GREETINGS_SOCIAL",
+      "priority_score": 93.2,
+      "current_samples": 25,
+      "target_samples": 100,
+      "performer_count": 4,
+      "target_performers": 5,
+      "session_count": 2,
+      "test_f1": 0.333,
+      "primary_confusion": "NO (50%)",
+      "collection_reason": "Low test F1; 50% confused as NO. Needs 75 samples across 5 signers."
+    },
+    {
+      "rank": 3,
+      "label": "NO",
+      "category": "CORE_RESPONSES",
+      "priority_score": 88.4,
+      "current_samples": 25,
+      "target_samples": 100,
+      "performer_count": 4,
+      "target_performers": 5,
+      "session_count": 2,
+      "test_f1": 0.500,
+      "primary_confusion": "YES (25%)",
+      "collection_reason": "Sub-optimal test F1; attractor class for THANK_YOU/HELLO. Needs 75 samples."
+    },
+    {
+      "rank": 4,
+      "label": "YES",
+      "category": "CORE_RESPONSES",
+      "priority_score": 86.1,
+      "current_samples": 25,
+      "target_samples": 100,
+      "performer_count": 4,
+      "target_performers": 5,
+      "session_count": 2,
+      "test_f1": 0.571,
+      "primary_confusion": "NO (33%)",
+      "collection_reason": "Low sample diversity. Needs 75 samples with varying signing speeds."
+    },
+    {
+      "rank": 5,
+      "label": "HELP",
+      "category": "EMERGENCY",
+      "priority_score": 85.0,
+      "current_samples": 0,
+      "target_samples": 100,
+      "performer_count": 0,
+      "target_performers": 5,
+      "session_count": 0,
+      "test_f1": null,
+      "primary_confusion": null,
+      "collection_reason": "Tier 1 high-priority emergency sign. 0 samples exist."
+    },
+    {
+      "rank": 6,
+      "label": "PLEASE",
+      "category": "GREETINGS_SOCIAL",
+      "priority_score": 84.5,
+      "current_samples": 0,
+      "target_samples": 100,
+      "performer_count": 0,
+      "target_performers": 5,
+      "session_count": 0,
+      "test_f1": null,
+      "primary_confusion": null,
+      "collection_reason": "Tier 1 high-priority conversational sign. 0 samples exist."
+    }
+  ]
+}

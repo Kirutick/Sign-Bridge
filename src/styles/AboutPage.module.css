@@ -1,0 +1,106 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  color: var(--text-primary);
+}
+
+.header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 24px 28px;
+  backdrop-filter: var(--glass-backdrop);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  line-height: 1.6;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.sectionHeading {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--accent-cyan);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.disclaimerBanner {
+  padding: 18px 22px;
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid #ef4444;
+  border-radius: var(--radius-md);
+  color: #fca5a5;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pipelineStep {
+  display: flex;
+  gap: 16px;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.stepNumber {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: var(--accent-cyan);
+  min-width: 28px;
+}
+
+.stepContent {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stepTitle {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.stepDesc {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+}
+
+.mathBlock {
+  padding: 12px 16px;
+  background: #050811;
+  border-left: 3px solid var(--accent-cyan);
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: #38bdf8;
+  overflow-x: auto;
+}

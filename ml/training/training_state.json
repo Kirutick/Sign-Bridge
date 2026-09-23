@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETED",
+  "pid": 21496,
+  "experiment_id": "exp_phase8_lstm_run01",
+  "dataset_version": "4f441224858b338e11e9c06e405e7900",
+  "model_version": "v0.7.0-phase8",
+  "epoch": 10,
+  "best_metric": {
+    "val_macro_f1": 0.19090909090909092,
+    "test_f1": 0.09090909090909091
+  },
+  "latest_checkpoint": "ml/experiments/checkpoints\\exp_phase8_lstm_run01_best.keras",
+  "start_time": "2026-08-26T08:59:04.700788+00:00",
+  "last_update": "2026-08-26T08:59:04.700788+00:00",
+  "last_heartbeat": 1787734744.7007883,
+  "hardware": "CPU",
+  "error_state": null
+}

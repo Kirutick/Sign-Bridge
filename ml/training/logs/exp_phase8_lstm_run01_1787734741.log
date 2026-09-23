@@ -1,0 +1,19 @@
+=== SIGN BRIDGE TRAINING LOG: exp_phase8_lstm_run01 ===
+PID: 21496 | Timestamp: 2026-08-26T08:59:01.156790+00:00
+Hardware: CPU / TensorFlow 2.21.0
+
+Train Shape: (70, 30, 63) | Val Shape: (15, 30, 63) | Test Shape: (15, 30, 63)
+Epoch 01/10 - Loss: 1.4033 - Acc: 0.2571 - Val Loss: 1.4294 - Val Acc: 0.2000 - Val F1: 0.0833
+Epoch 02/10 - Loss: 1.4047 - Acc: 0.2143 - Val Loss: 1.4230 - Val Acc: 0.2000 - Val F1: 0.0833
+Epoch 03/10 - Loss: 1.3949 - Acc: 0.2143 - Val Loss: 1.4069 - Val Acc: 0.2000 - Val F1: 0.0833
+Epoch 04/10 - Loss: 1.3957 - Acc: 0.3000 - Val Loss: 1.3965 - Val Acc: 0.2667 - Val F1: 0.1176
+Epoch 05/10 - Loss: 1.3909 - Acc: 0.2143 - Val Loss: 1.3947 - Val Acc: 0.2667 - Val F1: 0.1880
+Epoch 06/10 - Loss: 1.3968 - Acc: 0.2429 - Val Loss: 1.3994 - Val Acc: 0.2000 - Val F1: 0.1364
+Epoch 07/10 - Loss: 1.3814 - Acc: 0.2857 - Val Loss: 1.4028 - Val Acc: 0.1333 - Val F1: 0.0667
+Epoch 08/10 - Loss: 1.3571 - Acc: 0.2143 - Val Loss: 1.4066 - Val Acc: 0.2000 - Val F1: 0.1000
+Epoch 09/10 - Loss: 1.3804 - Acc: 0.2571 - Val Loss: 1.4011 - Val Acc: 0.2000 - Val F1: 0.1770
+Epoch 10/10 - Loss: 1.3631 - Acc: 0.3571 - Val Loss: 1.4041 - Val Acc: 0.2667 - Val F1: 0.1909
+
+=== FINAL TEST EVALUATION ===
+Test Accuracy: 0.1333 | Test Macro F1: 0.0909
+Completed At: 2026-08-26T08:59:04.699788+00:00

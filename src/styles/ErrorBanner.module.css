@@ -1,0 +1,46 @@
+.banner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  padding: 14px 20px;
+  background: rgba(255, 75, 75, 0.12);
+  border: 1px solid var(--accent-coral);
+  border-radius: var(--radius-sm);
+  color: var(--accent-coral);
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.icon {
+  font-size: 1.3rem;
+}
+
+.title {
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.retryBtn {
+  padding: 6px 14px;
+  background: var(--accent-coral);
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: opacity 0.2s ease;
+}
+
+.retryBtn:hover {
+  opacity: 0.88;
+}

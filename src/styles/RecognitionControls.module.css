@@ -1,0 +1,89 @@
+.bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  padding: 16px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  backdrop-filter: var(--glass-backdrop);
+}
+
+.buttonGroup {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.btnStart {
+  background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+  color: #000;
+}
+
+.btnStart:hover:not(:disabled) {
+  box-shadow: 0 0 15px rgba(0, 242, 254, 0.4);
+  transform: translateY(-1px);
+}
+
+.btnPause {
+  background: rgba(255, 180, 0, 0.15);
+  border-color: #ffb400;
+  color: #ffb400;
+}
+
+.btnPause:hover:not(:disabled) {
+  background: rgba(255, 180, 0, 0.25);
+}
+
+.btnSecondary {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: var(--border-color);
+  color: var(--text-secondary);
+}
+
+.btnSecondary:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--text-primary);
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.sliderBox {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 14px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.slider {
+  width: 120px;
+  accent-color: var(--accent-cyan);
+  cursor: pointer;
+}

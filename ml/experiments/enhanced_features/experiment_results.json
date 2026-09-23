@@ -1,0 +1,272 @@
+[
+  {
+    "experiment": "Exp A (Baseline)",
+    "schema": "v1_single_hand_63",
+    "feature_dim": 63,
+    "description": "63 raw coordinates",
+    "epochs_run": 72,
+    "train_time_sec": 25.61,
+    "feat_ms_per_sample": 3.306,
+    "train_accuracy": 1.0,
+    "val_accuracy": 1.0,
+    "val_macro_f1": 1.0,
+    "test_accuracy": 1.0,
+    "test_macro_precision": 1.0,
+    "test_macro_recall": 1.0,
+    "test_macro_f1": 1.0,
+    "test_weighted_f1": 1.0,
+    "test_ece": 0.0168,
+    "static_accuracy": 1.0,
+    "dynamic_accuracy": 1.0,
+    "train_val_gap_pct": 0.0,
+    "train_test_gap_pct": 0.0,
+    "inference_latency_ms": 34.532,
+    "param_count": 121266,
+    "nan_count": 0,
+    "inf_count": 0,
+    "redundant_pair_count": 139,
+    "redundant_pairs_top5": [
+      {
+        "feat_a": 3,
+        "feat_b": 6,
+        "correlation": 0.9691
+      },
+      {
+        "feat_a": 4,
+        "feat_b": 7,
+        "correlation": 0.9984
+      },
+      {
+        "feat_a": 4,
+        "feat_b": 10,
+        "correlation": 0.9958
+      },
+      {
+        "feat_a": 4,
+        "feat_b": 13,
+        "correlation": 0.9924
+      },
+      {
+        "feat_a": 5,
+        "feat_b": 8,
+        "correlation": 0.9853
+      }
+    ]
+  },
+  {
+    "experiment": "Exp B (Geometry)",
+    "schema": "v2_single_hand_geometry",
+    "feature_dim": 134,
+    "description": "63 coords + joint angles + lengths + spread + palm + orient",
+    "epochs_run": 137,
+    "train_time_sec": 44.84,
+    "feat_ms_per_sample": 3.377,
+    "train_accuracy": 1.0,
+    "val_accuracy": 1.0,
+    "val_macro_f1": 1.0,
+    "test_accuracy": 1.0,
+    "test_macro_precision": 1.0,
+    "test_macro_recall": 1.0,
+    "test_macro_f1": 1.0,
+    "test_weighted_f1": 1.0,
+    "test_ece": 0.0042,
+    "static_accuracy": 1.0,
+    "dynamic_accuracy": 1.0,
+    "train_val_gap_pct": 0.0,
+    "train_test_gap_pct": 0.0,
+    "inference_latency_ms": 34.302,
+    "param_count": 157618,
+    "nan_count": 0,
+    "inf_count": 0,
+    "redundant_pair_count": 217,
+    "redundant_pairs_top5": [
+      {
+        "feat_a": 3,
+        "feat_b": 6,
+        "correlation": 0.9691
+      },
+      {
+        "feat_a": 4,
+        "feat_b": 7,
+        "correlation": 0.9984
+      },
+      {
+        "feat_a": 4,
+        "feat_b": 10,
+        "correlation": 0.9958
+      },
+      {
+        "feat_a": 4,
+        "feat_b": 13,
+        "correlation": 0.9924
+      },
+      {
+        "feat_a": 5,
+        "feat_b": 8,
+        "correlation": 0.9853
+      }
+    ]
+  },
+  {
+    "experiment": "Exp C (Geom + Vel)",
+    "schema": "v3_single_hand_geom_vel",
+    "feature_dim": 203,
+    "description": "Geometry + landmark velocities + global motion",
+    "epochs_run": 119,
+    "train_time_sec": 45.28,
+    "feat_ms_per_sample": 4.706,
+    "train_accuracy": 1.0,
+    "val_accuracy": 1.0,
+    "val_macro_f1": 1.0,
+    "test_accuracy": 1.0,
+    "test_macro_precision": 1.0,
+    "test_macro_recall": 1.0,
+    "test_macro_f1": 1.0,
+    "test_weighted_f1": 1.0,
+    "test_ece": 0.0048,
+    "static_accuracy": 1.0,
+    "dynamic_accuracy": 1.0,
+    "train_val_gap_pct": 0.0,
+    "train_test_gap_pct": 0.0,
+    "inference_latency_ms": 35.187,
+    "param_count": 192946,
+    "nan_count": 0,
+    "inf_count": 0,
+    "redundant_pair_count": 365,
+    "redundant_pairs_top5": [
+      {
+        "feat_a": 3,
+        "feat_b": 6,
+        "correlation": 0.9691
+      },
+      {
+        "feat_a": 4,
+        "feat_b": 7,
+        "correlation": 0.9984
+      },
+      {
+        "feat_a": 4,
+        "feat_b": 10,
+        "correlation": 0.9958
+      },
+      {
+        "feat_a": 4,
+        "feat_b": 13,
+        "correlation": 0.9924
+      },
+      {
+        "feat_a": 5,
+        "feat_b": 8,
+        "correlation": 0.9853
+      }
+    ]
+  },
+  {
+    "experiment": "Exp D (Geom + Vel + Accel)",
+    "schema": "v4_single_hand_geom_vel_acc",
+    "feature_dim": 266,
+    "description": "Geometry + velocities + accelerations + global motion",
+    "epochs_run": 147,
+    "train_time_sec": 54.85,
+    "feat_ms_per_sample": 4.763,
+    "train_accuracy": 1.0,
+    "val_accuracy": 1.0,
+    "val_macro_f1": 1.0,
+    "test_accuracy": 1.0,
+    "test_macro_precision": 1.0,
+    "test_macro_recall": 1.0,
+    "test_macro_f1": 1.0,
+    "test_weighted_f1": 1.0,
+    "test_ece": 0.0044,
+    "static_accuracy": 1.0,
+    "dynamic_accuracy": 1.0,
+    "train_val_gap_pct": 0.0,
+    "train_test_gap_pct": 0.0,
+    "inference_latency_ms": 34.282,
+    "param_count": 225202,
+    "nan_count": 0,
+    "inf_count": 0,
+    "redundant_pair_count": 403,
+    "redundant_pairs_top5": [
+      {
+        "feat_a": 3,
+        "feat_b": 6,
+        "correlation": 0.9691
+      },
+      {
+        "feat_a": 4,
+        "feat_b": 7,
+        "correlation": 0.9984
+      },
+      {
+        "feat_a": 4,
+        "feat_b": 10,
+        "correlation": 0.9958
+      },
+      {
+        "feat_a": 4,
+        "feat_b": 13,
+        "correlation": 0.9924
+      },
+      {
+        "feat_a": 5,
+        "feat_b": 8,
+        "correlation": 0.9853
+      }
+    ]
+  },
+  {
+    "experiment": "Exp E (All Features)",
+    "schema": "v5_single_hand_all",
+    "feature_dim": 271,
+    "description": "All validated geometric, velocity, accel, and temporal summaries",
+    "epochs_run": 114,
+    "train_time_sec": 69.4,
+    "feat_ms_per_sample": 5.254,
+    "train_accuracy": 1.0,
+    "val_accuracy": 1.0,
+    "val_macro_f1": 1.0,
+    "test_accuracy": 1.0,
+    "test_macro_precision": 1.0,
+    "test_macro_recall": 1.0,
+    "test_macro_f1": 1.0,
+    "test_weighted_f1": 1.0,
+    "test_ece": 0.0052,
+    "static_accuracy": 1.0,
+    "dynamic_accuracy": 1.0,
+    "train_val_gap_pct": 0.0,
+    "train_test_gap_pct": 0.0,
+    "inference_latency_ms": 37.909,
+    "param_count": 227762,
+    "nan_count": 0,
+    "inf_count": 0,
+    "redundant_pair_count": 407,
+    "redundant_pairs_top5": [
+      {
+        "feat_a": 3,
+        "feat_b": 6,
+        "correlation": 0.9691
+      },
+      {
+        "feat_a": 4,
+        "feat_b": 7,
+        "correlation": 0.9984
+      },
+      {
+        "feat_a": 4,
+        "feat_b": 10,
+        "correlation": 0.9958
+      },
+      {
+        "feat_a": 4,
+        "feat_b": 13,
+        "correlation": 0.9924
+      },
+      {
+        "feat_a": 5,
+        "feat_b": 8,
+        "correlation": 0.9853
+      }
+    ]
+  }
+]

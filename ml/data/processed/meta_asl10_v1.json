@@ -1,0 +1,52 @@
+{
+  "classes": [
+    "HELLO",
+    "NO",
+    "THANK_YOU",
+    "YES",
+    "HELP",
+    "PLEASE",
+    "SORRY",
+    "GOODBYE",
+    "NAME",
+    "WATER"
+  ],
+  "label_to_id": {
+    "HELLO": 0,
+    "NO": 1,
+    "THANK_YOU": 2,
+    "YES": 3,
+    "HELP": 4,
+    "PLEASE": 5,
+    "SORRY": 6,
+    "GOODBYE": 7,
+    "NAME": 8,
+    "WATER": 9
+  },
+  "id_to_label": {
+    "0": "HELLO",
+    "1": "NO",
+    "2": "THANK_YOU",
+    "3": "YES",
+    "4": "HELP",
+    "5": "PLEASE",
+    "6": "SORRY",
+    "7": "GOODBYE",
+    "8": "NAME",
+    "9": "WATER"
+  },
+  "total_samples": 400,
+  "performers": [
+    "perf_01_native",
+    "perf_02_native",
+    "perf_03_interpreter",
+    "perf_04_interpreter",
+    "perf_05_coda",
+    "perf_06_coda",
+    "perf_07_learner",
+    "perf_08_learner",
+    "perf_09_holdout",
+    "perf_10_holdout"
+  ],
+  "samples_per_class": 40
+}

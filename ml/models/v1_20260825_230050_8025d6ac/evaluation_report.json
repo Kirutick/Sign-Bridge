@@ -1,0 +1,74 @@
+{
+  "model_version": "v1_20260825_230050_8025d6ac",
+  "dataset_hash": "ml/data/processed/8025d6acb5ebf638.npz",
+  "test_sample_count": 20,
+  "accuracy": 0.75,
+  "macro_precision": 0.625,
+  "macro_recall": 0.75,
+  "macro_f1": 0.6667,
+  "weighted_f1": 0.6667,
+  "train_accuracy": 0.45,
+  "val_accuracy": 0.5,
+  "per_class": {
+    "HELLO": {
+      "sample_count": 5,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "NO": {
+      "sample_count": 5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0
+    },
+    "THANK_YOU": {
+      "sample_count": 5,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "YES": {
+      "sample_count": 5,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1_score": 0.6667
+    }
+  },
+  "top_confused_pairs": [
+    {
+      "true_label": "NO",
+      "predicted_label": "YES",
+      "count": 5,
+      "total_true_samples": 5,
+      "percentage": 100.0,
+      "summary": "'NO' predicted as 'YES' in 5/5 cases (100.0%)"
+    }
+  ],
+  "confusion_matrix_raw": [
+    [
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5
+    ]
+  ]
+}

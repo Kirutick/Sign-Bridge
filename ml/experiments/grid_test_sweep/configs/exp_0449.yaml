@@ -1,0 +1,15 @@
+experiment_id: exp_0449
+model:
+  dense_units: 64
+  dropout_rate: 0.1
+  layers: 1
+  lstm_units: 128
+seed: 42
+sweep_id: test_sweep
+test_size: 0.15
+training:
+  batch_size: 32
+  early_stopping_patience: 10
+  epochs: 100
+  learning_rate: 0.0001
+val_size: 0.15

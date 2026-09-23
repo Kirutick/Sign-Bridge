@@ -1,0 +1,15 @@
+# Baseline LSTM Configuration
+seed: 42
+test_size: 0.15
+val_size: 0.15
+
+model:
+  lstm_units: 64
+  dropout_rate: 0.5
+  dense_units: 64
+
+training:
+  batch_size: 32
+  epochs: 50
+  learning_rate: 0.001
+  early_stopping_patience: 10

@@ -1,0 +1,45 @@
+.chipContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.active .dot {
+  background: var(--accent-green);
+  box-shadow: 0 0 8px var(--accent-green);
+}
+
+.warning .dot {
+  background: #ffd166;
+  box-shadow: 0 0 8px #ffd166;
+}
+
+.error .dot {
+  background: var(--accent-coral);
+  box-shadow: 0 0 8px var(--accent-coral);
+}
+
+.idle .dot {
+  background: var(--text-muted);
+}

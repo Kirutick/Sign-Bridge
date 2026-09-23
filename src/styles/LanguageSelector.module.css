@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.selectorRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.langButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.langButton:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(79, 172, 254, 0.5);
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+
+.langButton.active {
+  background: linear-gradient(135deg, rgba(0, 242, 254, 0.15), rgba(79, 172, 254, 0.25));
+  border-color: #00f2fe;
+  color: #ffffff;
+  box-shadow: 0 0 12px rgba(0, 242, 254, 0.25);
+}
+
+.langButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.flag {
+  font-size: 1.1rem;
+}
+
+.badge {
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  background: rgba(0, 242, 254, 0.2);
+  color: #00f2fe;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.langDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  background: rgba(0, 0, 0, 0.25);
+  padding: 4px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.vocabTag {
+  color: #00f2fe;
+  font-weight: 600;
+}

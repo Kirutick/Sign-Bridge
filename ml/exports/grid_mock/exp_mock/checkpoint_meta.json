@@ -1,0 +1,1 @@
+{"label_to_id": {"HELLO": 0, "NO": 1, "THANK_YOU": 2, "YES": 3}, "id_to_label": {"0": "HELLO", "1": "NO", "2": "THANK_YOU", "3": "YES"}, "feature_count": 63, "sequence_length": 30, "dataset_version": "v1", "seed": 42, "split_strategy_used": "stratified-random-fallback", "config_snapshot": {"test_size": 0.15, "val_size": 0.15}}

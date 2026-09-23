@@ -1,0 +1,145 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 860px;
+  padding: 20px 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  backdrop-filter: var(--glass-backdrop);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.summaryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+}
+
+.summaryBox {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 14px;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+}
+
+.label {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.val {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent-cyan);
+  font-family: monospace;
+}
+
+.valValid {
+  color: var(--accent-green);
+}
+
+.valInvalid {
+  color: var(--accent-coral);
+  background: rgba(255, 8, 68, 0.2);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.handSection {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 14px;
+  background: rgba(5, 8, 15, 0.85);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+}
+
+.handHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.comparisonGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.columnTitle {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.vectorList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-family: monospace;
+  font-size: 0.78rem;
+}
+
+.vectorRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 4px;
+}
+
+.vectorKey {
+  color: var(--text-muted);
+}
+
+.vectorVal {
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+
+.rejectionBanner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  border-radius: var(--radius-sm);
+  color: #fbbf24;
+  font-size: 0.82rem;
+}
+
+@media (max-width: 640px) {
+  .comparisonGrid {
+    grid-template-columns: 1fr;
+  }
+}

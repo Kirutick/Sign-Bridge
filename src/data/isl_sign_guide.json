@@ -1,0 +1,506 @@
+{
+  "language": "Indian Sign Language",
+  "outputLanguage": "English",
+  "signs": [
+    {
+      "label": "A",
+      "displayName": "A",
+      "modelClassIndex": 0,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "B",
+      "displayName": "B",
+      "modelClassIndex": 1,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "C",
+      "displayName": "C",
+      "modelClassIndex": 2,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "D",
+      "displayName": "D",
+      "modelClassIndex": 3,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "E",
+      "displayName": "E",
+      "modelClassIndex": 4,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "F",
+      "displayName": "F",
+      "modelClassIndex": 5,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "G",
+      "displayName": "G",
+      "modelClassIndex": 6,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "H",
+      "displayName": "H",
+      "modelClassIndex": 7,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "I",
+      "displayName": "I",
+      "modelClassIndex": 8,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "J",
+      "displayName": "J",
+      "modelClassIndex": 9,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "K",
+      "displayName": "K",
+      "modelClassIndex": 10,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "L",
+      "displayName": "L",
+      "modelClassIndex": 11,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "M",
+      "displayName": "M",
+      "modelClassIndex": 12,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "N",
+      "displayName": "N",
+      "modelClassIndex": 13,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "O",
+      "displayName": "O",
+      "modelClassIndex": 14,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "P",
+      "displayName": "P",
+      "modelClassIndex": 15,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "Q",
+      "displayName": "Q",
+      "modelClassIndex": 16,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "R",
+      "displayName": "R",
+      "modelClassIndex": 17,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "S",
+      "displayName": "S",
+      "modelClassIndex": 18,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "T",
+      "displayName": "T",
+      "modelClassIndex": 19,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "U",
+      "displayName": "U",
+      "modelClassIndex": 20,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "V",
+      "displayName": "V",
+      "modelClassIndex": 21,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "W",
+      "displayName": "W",
+      "modelClassIndex": 22,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "X",
+      "displayName": "X",
+      "modelClassIndex": 23,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "Y",
+      "displayName": "Y",
+      "modelClassIndex": 24,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "Z",
+      "displayName": "Z",
+      "modelClassIndex": 25,
+      "category": "Alphabet",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "NUM_0",
+      "displayName": "0",
+      "modelClassIndex": 26,
+      "category": "Numbers",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "NUM_1",
+      "displayName": "1",
+      "modelClassIndex": 27,
+      "category": "Numbers",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "NUM_2",
+      "displayName": "2",
+      "modelClassIndex": 28,
+      "category": "Numbers",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "NUM_3",
+      "displayName": "3",
+      "modelClassIndex": 29,
+      "category": "Numbers",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "NUM_4",
+      "displayName": "4",
+      "modelClassIndex": 30,
+      "category": "Numbers",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "NUM_5",
+      "displayName": "5",
+      "modelClassIndex": 31,
+      "category": "Numbers",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "NUM_6",
+      "displayName": "6",
+      "modelClassIndex": 32,
+      "category": "Numbers",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "NUM_7",
+      "displayName": "7",
+      "modelClassIndex": 33,
+      "category": "Numbers",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "NUM_8",
+      "displayName": "8",
+      "modelClassIndex": 34,
+      "category": "Numbers",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "NUM_9",
+      "displayName": "9",
+      "modelClassIndex": 35,
+      "category": "Numbers",
+      "signType": "Static",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "HELLO",
+      "displayName": "HELLO",
+      "modelClassIndex": 36,
+      "category": "Words",
+      "signType": "Dynamic",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "THANK_YOU",
+      "displayName": "THANK YOU",
+      "modelClassIndex": 37,
+      "category": "Words",
+      "signType": "Dynamic",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "YES",
+      "displayName": "YES",
+      "modelClassIndex": 38,
+      "category": "Words",
+      "signType": "Dynamic",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "NO",
+      "displayName": "NO",
+      "modelClassIndex": 39,
+      "category": "Words",
+      "signType": "Dynamic",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "HELP",
+      "displayName": "HELP",
+      "modelClassIndex": 40,
+      "category": "Words",
+      "signType": "Dynamic",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "PLEASE",
+      "displayName": "PLEASE",
+      "modelClassIndex": 41,
+      "category": "Words",
+      "signType": "Dynamic",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "SORRY",
+      "displayName": "SORRY",
+      "modelClassIndex": 42,
+      "category": "Words",
+      "signType": "Dynamic",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "GOODBYE",
+      "displayName": "GOODBYE",
+      "modelClassIndex": 43,
+      "category": "Words",
+      "signType": "Dynamic",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "WATER",
+      "displayName": "WATER",
+      "modelClassIndex": 44,
+      "category": "Words",
+      "signType": "Dynamic",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "FOOD",
+      "displayName": "FOOD",
+      "modelClassIndex": 45,
+      "category": "Words",
+      "signType": "Dynamic",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "STOP",
+      "displayName": "STOP",
+      "modelClassIndex": 46,
+      "category": "Words",
+      "signType": "Dynamic",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "GO",
+      "displayName": "GO",
+      "modelClassIndex": 47,
+      "category": "Words",
+      "signType": "Dynamic",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "AND",
+      "displayName": "AND",
+      "modelClassIndex": 48,
+      "category": "Words",
+      "signType": "Dynamic",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    },
+    {
+      "label": "INDIA",
+      "displayName": "INDIA",
+      "modelClassIndex": 49,
+      "category": "Words",
+      "signType": "Dynamic",
+      "verificationStatus": "Needs verification",
+      "reference": null,
+      "instructions": []
+    }
+  ]
+}

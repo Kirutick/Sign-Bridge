@@ -1,0 +1,81 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  backdrop-filter: blur(8px);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.statusIdle {
+  background: rgba(140, 155, 185, 0.15);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+}
+
+.statusIdle .dot {
+  background: var(--text-muted);
+}
+
+.statusRecognizing {
+  background: rgba(0, 242, 254, 0.15);
+  border: 1px solid var(--accent-cyan);
+  color: var(--accent-cyan);
+}
+
+.statusRecognizing .dot {
+  background: var(--accent-cyan);
+  box-shadow: 0 0 8px var(--accent-cyan);
+}
+
+.statusHolding {
+  background: rgba(255, 209, 102, 0.15);
+  border: 1px solid #ffd166;
+  color: #ffd166;
+}
+
+.statusHolding .dot {
+  background: #ffd166;
+  box-shadow: 0 0 8px #ffd166;
+}
+
+.statusCommitted {
+  background: rgba(0, 255, 170, 0.2);
+  border: 1px solid var(--accent-green);
+  color: var(--accent-green);
+}
+
+.statusCommitted .dot {
+  background: var(--accent-green);
+  box-shadow: 0 0 8px var(--accent-green);
+}
+
+.statusUncertain {
+  background: rgba(255, 75, 75, 0.15);
+  border: 1px solid var(--accent-coral);
+  color: var(--accent-coral);
+}
+
+.statusUncertain .dot {
+  background: var(--accent-coral);
+}
+
+.statusPaused {
+  background: rgba(255, 180, 0, 0.15);
+  border: 1px solid #ffb400;
+  color: #ffb400;
+}
+
+.statusPaused .dot {
+  background: #ffb400;
+}

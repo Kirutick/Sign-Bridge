@@ -1,0 +1,138 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 860px;
+  padding: 20px 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  backdrop-filter: var(--glass-backdrop);
+}
+
+.title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.statusCard {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+}
+
+.cardLabel {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.cardValue {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.indicatorActive {
+  background-color: var(--accent-green);
+  box-shadow: 0 0 10px var(--accent-green);
+}
+
+.indicatorWarning {
+  background-color: var(--accent-amber);
+  box-shadow: 0 0 10px var(--accent-amber);
+}
+
+.indicatorError {
+  background-color: var(--accent-coral);
+  box-shadow: 0 0 10px var(--accent-coral);
+}
+
+.indicatorIdle {
+  background-color: var(--text-muted);
+}
+
+.handBadges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.badgeLeft {
+  background: rgba(0, 242, 254, 0.15);
+  border: 1px solid rgba(0, 242, 254, 0.4);
+  color: var(--accent-cyan);
+}
+
+.badgeRight {
+  background: rgba(255, 8, 68, 0.15);
+  border: 1px solid rgba(255, 8, 68, 0.4);
+  color: var(--accent-coral);
+}
+
+.errorMessage {
+  padding: 12px 16px;
+  background: rgba(255, 8, 68, 0.1);
+  border: 1px solid rgba(255, 8, 68, 0.3);
+  border-radius: var(--radius-sm);
+  color: #ff859b;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.retryBtn {
+  margin-top: 6px;
+  padding: 6px 14px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.retryBtn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,6 @@
+{
+  "featureCount": 63,
+  "sequenceLength": 30,
+  "normalization": "wrist_relative_middle_mcp_scale",
+  "degenerate_epsilon": 1e-06
+}

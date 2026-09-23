@@ -1,0 +1,102 @@
+{
+  "npz_path": "ml/data/processed/8025d6acb5ebf638.npz",
+  "total_samples": 60,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "leakage_guard_applied": true,
+  "unique_performers": [
+    "performer_1",
+    "performer_2",
+    "performer_3"
+  ],
+  "random_seed": 42,
+  "train_ids": [
+    "7f4aac98-9a93-4349-9119-20f6f5a8e3cc",
+    "fc98c260-9e6a-499f-a706-e388be10da20",
+    "3125f5e7-1166-4f73-a344-2f6a7ff31187",
+    "9574463b-a38e-4a74-98ee-b0f19a120f66",
+    "27ddf34b-6611-4b3b-9294-2f66900f4486",
+    "dbefb01e-4856-438e-8fb5-544e663a9276",
+    "dccf814a-eb63-4e8e-a7e2-f0f79b41f1fc",
+    "8eda3dc1-a70d-4236-946c-8904253c1911",
+    "9f38b4b0-f044-47f7-8142-876974da64b1",
+    "09ca5d88-dd60-457c-b23f-716e3b5e4883",
+    "6663fdec-f909-464a-8d9f-6d65365b836f",
+    "b6b28e52-5689-4668-93a7-5ae89f76d8c3",
+    "a9b2966e-5910-4dd4-84ba-147966758c8c",
+    "19958c4c-89d0-4b58-a011-5774a741904c",
+    "55b9fb33-8435-4ec1-b900-49885c659500",
+    "fe252d37-59e7-4693-9bad-b22a1d2189b3",
+    "09dcce42-5537-441e-8479-3c767a52f1d3",
+    "31eb0835-e785-4179-a0ca-3a4d435a88aa",
+    "6fd1bb2e-2e78-4958-b954-ba533075c584",
+    "e6bafbbb-4a38-4c89-8735-d613d1ed257d"
+  ],
+  "val_ids": [
+    "c5f7af30-4d2a-41ea-a3b4-445760c9d8f9",
+    "6f7d1db1-704a-4493-8037-469b50dd8cb2",
+    "1eb3c537-044a-4cb8-b656-3f8ddcc94d34",
+    "af2b6258-b896-4064-a796-365fde3a8bd3",
+    "215202c4-e7a6-4755-b3ba-267fb9ff820a",
+    "900196e3-5332-44e3-abf2-dfed47b9e7d7",
+    "a386834d-83b2-47aa-9dbf-516469d56244",
+    "432c3a03-8d1e-42e9-87eb-966ff129d2f4",
+    "b14f9568-6cde-425e-8dd7-40ef91ced3e8",
+    "bd3dde9c-ff3e-4f4e-9770-b0df2e995120",
+    "c55add56-2311-480a-8c4d-cf72df31d692",
+    "28ae026a-a2ea-4598-b507-48420ff7e8e3",
+    "a127f7fd-a8b8-43af-ad55-33b7567932f8",
+    "46828eec-a71a-4c1e-850f-8f88cecb852f",
+    "e3e5f70f-e656-42db-bc7a-1ca3c55d4faf",
+    "e2fc3970-291a-480d-9894-05cbba6418f4",
+    "99dbf784-f8bc-487e-b182-625eab905fd9",
+    "13e91697-3c3e-4d19-acac-f409024cf995",
+    "170cfd3e-7f35-45ec-947b-3b351a5135da",
+    "3a046325-3e61-4724-89f9-ffbe0c309b2b"
+  ],
+  "test_ids": [
+    "cd11af2b-7cdd-4406-b20d-e08e1e858e4d",
+    "ef43093f-45fa-4f10-8685-500a392bc096",
+    "c43b0f09-8c23-45c7-891a-73eaed603818",
+    "af1ea66c-87c6-4623-9eff-4af1d88748a8",
+    "24e6f9c6-0552-4d3a-9894-afc05f37c197",
+    "5b44851a-86b3-4dd5-b896-01c9820a2234",
+    "66a2285e-cf31-4960-b06c-c90518fe32dd",
+    "8ac60ea8-b9c7-444e-be3e-3127bed772ab",
+    "3a069c81-69fb-43a5-b982-1b60bb6ecd5d",
+    "983b35e9-14b1-4276-9e26-ceed7d573187",
+    "232ef346-e87d-4945-8186-2be386f82e5a",
+    "c25ca544-8de6-4d71-90b8-62ff0b365972",
+    "aaa4b93d-cbba-4117-8e27-f4e647b3fc98",
+    "df06cb8f-7716-49f8-a29c-98ab963d0174",
+    "aff2ac60-9c16-4302-ab08-015734e44137",
+    "7104f65d-fb02-4d83-a817-565365334800",
+    "44b516da-c8d0-4e5e-87d9-b9c3b42fa762",
+    "07904b8f-e2f2-4603-bc30-063b7c83120d",
+    "468e3675-0137-45ca-be0f-9db4a23eaec3",
+    "e751b47d-999b-40ab-907e-8a816f44011e"
+  ],
+  "split_label_counts": {
+    "train": {
+      "HELLO": 5,
+      "THANK_YOU": 5,
+      "YES": 5,
+      "NO": 5
+    },
+    "val": {
+      "HELLO": 5,
+      "THANK_YOU": 5,
+      "YES": 5,
+      "NO": 5
+    },
+    "test": {
+      "HELLO": 5,
+      "THANK_YOU": 5,
+      "YES": 5,
+      "NO": 5
+    }
+  }
+}

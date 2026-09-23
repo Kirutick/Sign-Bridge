@@ -1,0 +1,51 @@
+{
+  "label_to_index": {
+    "HELLO": 0,
+    "NO": 1,
+    "THANK_YOU": 2,
+    "YES": 3,
+    "HELP": 4,
+    "PLEASE": 5,
+    "SORRY": 6,
+    "GOODBYE": 7,
+    "NAME": 8,
+    "WATER": 9
+  },
+  "index_to_label": {
+    "0": "HELLO",
+    "1": "NO",
+    "2": "THANK_YOU",
+    "3": "YES",
+    "4": "HELP",
+    "5": "PLEASE",
+    "6": "SORRY",
+    "7": "GOODBYE",
+    "8": "NAME",
+    "9": "WATER"
+  },
+  "label_to_id": {
+    "HELLO": 0,
+    "NO": 1,
+    "THANK_YOU": 2,
+    "YES": 3,
+    "HELP": 4,
+    "PLEASE": 5,
+    "SORRY": 6,
+    "GOODBYE": 7,
+    "NAME": 8,
+    "WATER": 9
+  },
+  "id_to_label": {
+    "0": "HELLO",
+    "1": "NO",
+    "2": "THANK_YOU",
+    "3": "YES",
+    "4": "HELP",
+    "5": "PLEASE",
+    "6": "SORRY",
+    "7": "GOODBYE",
+    "8": "NAME",
+    "9": "WATER"
+  },
+  "num_classes": 10
+}

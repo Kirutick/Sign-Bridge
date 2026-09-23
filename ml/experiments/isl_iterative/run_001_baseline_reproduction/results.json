@@ -1,0 +1,9 @@
+{
+  "name": "run_001_baseline_reproduction",
+  "description": "LSTM(128) -> Dense(128, relu) -> Dropout(0.15) -> Dense(50), lr=0.003, batch=32, ep=150",
+  "epochs_run": 150,
+  "train_acc": 0.66,
+  "val_acc": 0.665,
+  "val_macro_f1": 0.6000429505135387,
+  "model_path": "ml/experiments/isl_iterative\\run_001_baseline_reproduction\\model.keras"
+}

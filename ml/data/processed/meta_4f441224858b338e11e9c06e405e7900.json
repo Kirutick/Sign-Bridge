@@ -1,0 +1,15 @@
+{
+  "label_to_id": {
+    "HELLO": 0,
+    "NO": 1,
+    "THANK_YOU": 2,
+    "YES": 3
+  },
+  "id_to_label": {
+    "0": "HELLO",
+    "1": "NO",
+    "2": "THANK_YOU",
+    "3": "YES"
+  },
+  "dataset_version": "4f441224858b338e11e9c06e405e7900"
+}

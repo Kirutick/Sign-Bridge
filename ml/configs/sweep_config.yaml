@@ -1,0 +1,23 @@
+# Sweep Configuration - Model Training 2
+
+grid:
+  model:
+    lstm_units: [32, 64, 128]
+    layers: [1, 2]
+    dropout_rate: [0.1, 0.2, 0.3, 0.5]
+    dense_units: [32, 64, 128]
+  training:
+    learning_rate: [0.001, 0.0005, 0.0001]
+    batch_size: [16, 32, 64]
+    
+constants:
+  seed: 42
+  test_size: 0.15
+  val_size: 0.15
+  training:
+    epochs: 100
+    early_stopping_patience: 10
+    
+evaluation:
+  overfit_gap_threshold: 0.15
+  f1_tolerance: 0.01
